@@ -5,7 +5,7 @@ tags:
   - teoricas
 ---
 
-## Hola! :material-star-outline:
+## Hola! 
 
 Esta es la página de inicio de la parte Teórica del curso. 
 

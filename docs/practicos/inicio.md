@@ -5,7 +5,7 @@ tags:
   - practicos
 ---
 
-## Hola! :material-star-outline:
+## Hola!
 
 Esta es la página de inicio de los prácticos de este curso. A continuación una lista de datos útiles.
 
