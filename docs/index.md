@@ -4,6 +4,6 @@ hide:
   - toc
 ---
 
-Curso Teórico - Práctico Hygge Lagom Shouganai
+Curso Teórico - Del Genoma al Transcriptoma: Fundamentos y Herramientas Informáticas
 
-![Banner](banner.pdf){ width="650" }
+![Banner](banner.jpg){ width="650" }

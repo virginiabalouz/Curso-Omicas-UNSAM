@@ -25,14 +25,14 @@ theme:
     - navigation.indexes
   palette: 
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: black
       toggle:
         icon: material/toggle-switch 
         name: Cambiar a modo oscuro
     - scheme: slate 
-      primary: indigo
-      accent: indigo
+      primary: black
+      accent: black
       toggle: 
         icon: material/toggle-switch-off-outline
         name: Cambiar a modo claro
@@ -81,6 +81,32 @@ extra:
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+
+nav:
+    - Inicio: 'index.md'
+    - Información General: 
+        - info/inicio.md
+        - Acerca: info/acerca.md
+        - Cómo Llegar: info/comollegar.md
+        - Programa: info/contenidos.md
+        - Evaluación: info/evaluacion.md 
+        - Cronograma: info/cronograma.md
+        - Docentes: info/docentes.md
+    - Teoricas: 
+        - teoricas/inicio.md
+        - Teórica 1: teoricas/1-Teorica-Uno/index.md
+        - Teórica 2: teoricas/2-Teorica-Dos/index.md
+        - Teórica 3: teoricas/3-Teorica-Tres/index.md
+        - teoricas/resumen.md
+    - Practicos: 
+        - practicos/inicio.md
+        - TP 1: 'practicos/1-Trabajo-Practico-Uno/index.md'
+        - TP 2: 'practicos/2-Trabajo-Practico-Dos/index.md'
+        - TP 3: 'practicos/3-Trabajo-Practico-Tres/index.md'
+        - practicos/resumen.md
+    - Instructivos:
+        - 'instructivos/instructivos.md'
+
 
 # copyright
 # --- editar y ajustar de acuerdo al curso
