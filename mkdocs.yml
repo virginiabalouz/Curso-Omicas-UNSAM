@@ -1,14 +1,14 @@
 # site
 # --- editar y ajustar de acuerdo al curso 
-site_name: Nombre del Curso UNSAM
-site_description: "Sitio Web del Curso"
-site_author: "Nombre Apellido"
+site_name: "Del Genoma al Transcriptoma: Fundamentos y Herramientas Informáticas"
+site_description: "Sitio Web del Curso Del Genoma al Transcriptoma: Fundamentos y Herramientas Informáticas"
+site_author: "UNSAM"
 #site_url: https://curso.unsam.edu.ar
 
 # repository
 # --- si el sitio está alojado en un repo, describirlo acá 
 repo_name: 'cursos-unsam-mkdocs-template'
-repo_url: https://github.com/trypanosomatics/cursos-unsam-mkdocs-template
+repo_url: https://github.com/mercedesgarnham/Curso-Omicas-UNSAM
 
 # theme 
 # --- customizar apariencia editando palette 
@@ -59,9 +59,7 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.mark
   - pymdownx.keys
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.emoji
 
 # extra
 # --- editar los URLs, agregar los links especificos a cada cuenta, canal, etc. 
@@ -86,4 +84,4 @@ extra_javascript:
 
 # copyright
 # --- editar y ajustar de acuerdo al curso
-copyright: Copyright &copy; 2022 Area Bioinformatica UNSAM  
+copyright: Copyright &copy; 2025 Area Bioinformatica UNSAM  
