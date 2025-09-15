@@ -11,13 +11,9 @@ Esta es la página de inicio de los prácticos de este curso. A continuación un
 
 ## Consultas y Canales de Comunicación 
 
- * :material-email: Por email a esta dirección <email@domain>
- * :fontawesome-brands-discord: en Discord pueden chatear y conectarse entre Uds y con los docentes en este server
- * :fontawesome-brands-slack: en Slack pueden mandar mensajes a todo el grupo en distintos canales
+ * :material-email: Por email a esta dirección <curso-omicas@iib.unsam.edu.ar>
 
-## Informes
 
-Sobre los informes ... 
 
 
 
