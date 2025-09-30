@@ -5,18 +5,30 @@ tags:
 ---
 
 ![Image](featured.svg){ width="250", align=left }
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet
-fermentum justo, at rhoncus tellus. Aliquam nec magna ullamcorper, congue libero
-at, ultrices turpis. Vestibulum imperdiet sapien arcu, vitae faucibus nunc
-congue ut. Etiam non vulputate dui. Integer nec hendrerit libero. In bibendum
-lorem lectus, id volutpat diam imperdiet vel. Curabitur eu dictum sapien. Etiam
-lacinia lacinia commodo. Aliquam erat volutpat. Duis massa odio, vulputate in
-lorem id, fringilla tincidunt nunc. Quisque risus mauris, fringilla eget euismod
-quis, dictum id dui. Cras at lectus tempus, dapibus arcu sit amet, gravida diam.
 
-## Video :octicons-video-24:
+# **TP 2**. Guía de análisis bioinformático: del control de calidad a la detección de variantes genómicas { markdown data-toc-label = 'TP 02' }
 
-![type:video](https://www.youtube.com/embed/kS0X-yIsB64)
+[:fontawesome-solid-download: Materiales](https://drive.google.com/){ .md-button} [:fontawesome-solid-file-powerpoint: Slides](https://drive.google.com/){ .md-button} [:fontawesome-brands-youtube: Clase grabada](https://youtube.com){ .md-button}
+
+[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-download: Materiales</span>](https://drive.google.com/){ .md-button }
+[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-file-powerpoint: Slides</span>](https://drive.google.com/){ .md-button }
+[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-video: Clase grabada</span>](https://drive.google.com/){ .md-button }
+
+## Objetivos
+
+* Obtener lecturas de secuenciación de nueva generación (NGS) disponibles en bases de datos públicas
+* Interpretar los formatos utilizados comúnmente en NGS
+* Realizar control de calidad de las lecturas e interpretar los resultados
+* Mapear secuencias al genoma de referencia
+* Visualizar e interpretar alteraciones genéticas
+
+## Introducción
+
+### _Drosophila melanogaster_
+
+_D. melanogaster_ es un organismo modelo ampliamente utilizado en genética y biología del desarrollo. Su ciclo de vida corto, facilidad de cultivo en laboratorio y su genoma relativamente pequeño (aproximadamente 175 millones de pares de bases) lo convierten en un sistema ideal para estudiar procesos biológicos fundamentales.
+
+El genoma de _D. melanogaster_ consiste en cuatro cromosomas principales (X, 2, 3 y 4) y un cromosoma sexual (Y). Fue uno de los primeros genomas de eucariotas en ser secuenciado completamente, habiendo sido publicado en el año 2000. Desde entonces, ha sido objeto de numerosos estudios genómicos que han proporcionado información valiosa sobre la genética, la evolución y la biología del desarrollo.
 
 ## Material de lectura y consulta
 

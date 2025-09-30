@@ -36,6 +36,10 @@ theme:
       toggle: 
         icon: material/toggle-switch-off-outline
         name: Cambiar a modo claro
+  font:
+    text: Saira
+    display: Saira
+    code: Roboto Mono
 
 # plugins
 plugins:
@@ -59,7 +63,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.mark
   - pymdownx.keys
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
 
 # extra
 # --- editar los URLs, agregar los links especificos a cada cuenta, canal, etc. 
