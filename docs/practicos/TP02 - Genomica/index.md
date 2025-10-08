@@ -68,11 +68,21 @@ Dentro de la carpeta **Materiales** van a encontrar los archivos necesarios para
 
 3. ¿Qué información contiene el archivo .gff3? ¿Para qué lo vamos a utilizar en el TP? ¿Cuántos tipos de .gff3 hay disponibles para esta versión? 
 
+### Ejercicio 2: Inspección de archivos FASTQ
+
 ## Métricas de calidad
 
-La calidad de las lecturas de secuenciación es un aspecto crucial en los análisis genómicos. Las métricas de calidad nos permiten evaluar la confiabilidad de las secuencias obtenidas y tomar decisiones informadas sobre su uso en análisis posteriores. Algunas de las métricas más comunes incluyen:
+La calidad de las lecturas de secuenciación es un aspecto crucial en los análisis genómicos. Las métricas de calidad nos permiten evaluar la confiabilidad de las secuencias obtenidas y tomar decisiones informadas sobre su uso en análisis posteriores. Un programa muy usado para evaluar la calidad de las lecturas es **FastQC**. Este software genera un informe detallado que incluye varias métricas clave, tales como:
 
-### Ejercicio 2: Inspección de archivos FASTQ
+**ELEGIR UN PAR DE METRICAS Y EXPLICARLAS**
+
+**MENCIONAR MULTIQC**
+
+### Ejercicio 3: Control de calidad de las lecturas
+
+**CODIGO PARA QUE CORRAN MULTIQC**
+
+**PREGUNTAS SOBRE EL INFORME DE MULTIQC**
 
 
 
