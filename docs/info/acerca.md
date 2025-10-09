@@ -7,51 +7,49 @@ tags:
   - programa
 ---
 
-## Sobre el curso:
+## Sobre el curso
 
-Clases teóricas y prácticas brindadas por especialistas en genómica y transcriptómica de nivel internacional. 
+El avance de las tecnologías de secuenciación y análisis de datos ha transformado la investigación en biología y medicina. La genómica y la transcriptómica permiten explorar la complejidad de los organismos a nivel molecular, facilitando el descubrimiento de mecanismos genéticos implicados en enfermedades, procesos evolutivos y funciones biológicas.
+
+Este curso tiene como propósito ofrecer a los estudiantes una base sólida tanto teórica como práctica para abordar proyectos de análisis genómico y transcriptómico, desarrollando habilidades esenciales en bioinformática, manejo de datos y pensamiento crítico frente a resultados biológicos.
+
+## Objetivos del curso
+
+- Proporcionar un panorama actualizado sobre las técnicas de secuenciación de ADN y ARN, sus aplicaciones y análisis posteriores enfocados a la interpretación.
+
+- Desarrollar competencias prácticas para el manejo y análisis de datos genómicos y transcriptómicos.
+
+- Integrar conocimientos teóricos y prácticos mediante la resolución de un caso de estudio.
 
 ## A quien está orientado
 
-Estudiantes avanzados en carreras de Ciencias biológicas o afines / Doctorado en Biología Molecular y Biotecnología / Licenciatura en Biotecnología 
+Estudiantes avanzados en carreras de Ciencias biológicas o afines / Doctorado en Biología Molecular y Biotecnología / Licenciatura en Biotecnología. 
 
 ## Organización de la cursada
 
-Del 17/11 al 1/12 horario 9 a 13 h. 9 clases.
+Del 17/11 al 1/12 horario 9 a 13 h.
+El curso se dictará en modalidad presencial y virtual, con una carga horaria total de 36 horas distribuidas en clases teóricas y prácticas.
 
 ## Modalidad de cursada
 
-### Modalidad Presencial: 
-Incluye clases teóricas y prácticas
-Otorga certificado de aprobación
-Campus UNSAM Av. 25 de mayo y Francia. 
-
-### Modalidad Virtual: 
-Incluye clases teóricas
-Otorga certificado de participación
-Zoom
-
-## Metodología de evaluación
-La evaluación será grupal y consistirá en la presentación escrita y oral de un trabajo final integrador, aplicando los conocimientos adquiridos en la resolución de un problema biológico.
-La evaluación se centrará en la comprensión de los flujos de trabajo, el razonamiento biológico aplicado, el manejo de herramientas bioinformáticas y la capacidad de comunicar resultados de forma clara.
-
+El curso se dictará en modalidad presencial y virtual. 
+Las clases virtuales se realizarán a través de la plataforma Zoom y la participación será por Discord y/o Zoom. Los prácticos serán grabados y estarán disponibles para su revisión posterior, y los teóricos se publicarán en función de la autorización de los docentes.
 
 ## Inscripción
-Abrimos la Pre-inscripción! Si te interesa cursar esta materia anotate en el formulario! 
 
-### Cierre de Inscripción
-[Pre-Inscripción](https://forms.gle/mE75QMvkMKFnzQxa8){ .md-button .md-button--primary }
-26 de Septiembre, 2025
+Inscripciones abiertas hasta el 10 de noviembre de 2025. Podes inscribirte haciendo click en el siguiente botón:
 
-### Cierre de Inscripción
-Inscripción{ .md-button .md-button--primary }
-17 de Octubre, 2025
+[Inscripción](https://docs.google.com/forms/d/1k3-WYa9pZsF7Nzb1dl0B8ABEARSHCJUDH08m5maaTOA/edit){ .md-button .md-button--primary }
 
-### Notificación de Aceptación
+## Aranceles
 
-Los cupos para estudiantes de posgrado, investigadores y trabajadores de la industria son limitados.
+- Comunidad UNSAM: $80.000
 
-Aquellas personas que sean aceptadas para el curso serán notificadas el 24 de Octubre, 2025
+- Otras Universidades Nacionales: $160.000
+
+- Empresas: USD 250
+
+- Internacionales: USD 130
 
 ## Consultas
 
