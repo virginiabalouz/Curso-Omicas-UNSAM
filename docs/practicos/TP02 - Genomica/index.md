@@ -9,9 +9,11 @@ tags:
 
 # **TP 2**. Del control de calidad a la detección de variantes genómicas { markdown data-toc-label = 'TP 02' }
 
-[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-download: Materiales</span>](https://drive.google.com/){ .md-button }
-[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-file-powerpoint: Slides</span>](https://drive.google.com/){ .md-button }
+[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-download: Materiales</span>](https://drive.google.com/file/d/1b74X8uGOYGTHt_OaJZbn9N385MjwWswV/view?usp=sharing){ .md-button }
+[<span style="display:inline-flex;align-items:center;gap:0.4em">:material-file-powerpoint: Slides</span>](https://docs.google.com/presentation/d/1Vb3GfjxVjIiaMuHPtCnXc1vxpQ3hG7AaOPPnJNm9Ew0/edit?usp=sharing){ .md-button }
+<!--
 [<span style="display:inline-flex;align-items:center;gap:0.4em">:material-youtube: Clase grabada</span>](https://drive.google.com/){ .md-button }
+-->
 
 ## Objetivos
 
@@ -29,7 +31,7 @@ _D. melanogaster_ es un organismo modelo ampliamente utilizado en genética y bi
 
 El genoma de _D. melanogaster_ consiste en cuatro cromosomas principales (X, 2, 3 y 4) y un cromosoma sexual (Y). Fue uno de los primeros genomas de eucariotas en ser secuenciado completamente, habiendo sido publicado en el año 2000. Desde entonces, ha sido objeto de numerosos estudios genómicos que han proporcionado información valiosa sobre la genética, la evolución y la biología del desarrollo.
 
-En este trabajo práctico, vamos a mapear lecturas de secuenciación de _D. melanogaster_ a su genoma de referencia en busca de variantes genéticas. Estas lecturas están disponibles en bases de datos públicas, y forman parte de un estudio titulado **"Drosophila melanogaster strain: Canton S Genome sequencing**. Pueden ver información sobre como se generaron estas lecturas en el diseño del experimento publicado en [**NCBI**](https://www.ncbi.nlm.nih.gov/sra/SRX28785043[accn]). 
+En este trabajo práctico, vamos a mapear lecturas de secuenciación de _D. melanogaster_ a su genoma de referencia en busca de variantes genéticas. Estas lecturas están disponibles en bases de datos públicas, y forman parte de un estudio titulado **"_Drosophila melanogaster_ strain: Canton S Genome sequencing"**. Pueden ver información sobre como se generaron estas lecturas en el diseño del experimento publicado en [**NCBI**](https://www.ncbi.nlm.nih.gov/sra/SRX28785043[accn]). 
 
 **PONER ACÁ ALGO INTERESANTE DE LOS GENES QUE DESPUÉS VAMOS A MIRAR**
 
@@ -51,24 +53,59 @@ La plataforma de secuenciación que se utilizó para esta secuenciación es DNBS
 
 Existen numerosas bases de datos que albergan información genómica y genética de _D. melanogaster_. Algunas de las más relevantes son:
 
-* **FlyBase**: Es la base de datos principal para la genética y biología de _D. melanogaster_. Proporciona información sobre genes, mutaciones, fenotipos, secuencias genómicas y mucho más. [FlyBase](https://flybase.org/)
+* **[FlyBase](https://flybase.org/)**: Es la base de datos principal para la genética y biología de _D. melanogaster_. Proporciona información sobre genes, mutaciones, fenotipos, secuencias genómicas y mucho más.
 
-* **Ensembl Metazoa**: Ofrece acceso a datos genómicos de múltiples especies, incluyendo _D. melanogaster_. Permite la visualización y análisis de secuencias genómicas, anotaciones de genes y variantes. [Ensembl Metazoa](https://metazoa.ensembl.org/Drosophila_melanogaster/Info/Index)
+* **[Ensembl Metazoa](https://metazoa.ensembl.org/Drosophila_melanogaster/Info/Index)**: Ofrece acceso a datos genómicos de múltiples especies, incluyendo _D. melanogaster_. Permite la visualización y análisis de secuencias genómicas, anotaciones de genes y variantes. 
 
-* **NCBI**: La base de datos del National Center for Biotechnology Information (NCBI) también alberga secuencias genómicas y datos relacionados con _D. melanogaster_. [NCBI](https://www.ncbi.nlm.nih.gov/)
+* **[NCBI](https://www.ncbi.nlm.nih.gov/)**: La base de datos del National Center for Biotechnology Information (NCBI) también alberga secuencias genómicas y datos relacionados con _D. melanogaster_. 
 
 
 ### Ejercicio 1: Exploración de bases de datos 
 
-Dentro de la carpeta **Materiales** van a encontrar los archivos necesarios para realizar el práctico. El genoma de referencia y sus anotaciones fueron obtenidas de **FlyBase**. Explorando la web de Flybase, respondan:
+Dentro de la carpeta **Materiales** van a encontrar los archivos necesarios para realizar el práctico. El genoma de referencia y sus anotaciones fueron obtenidas de **FlyBase**. Explorando la web de Flybase (pestaña **Downloads**), respondan:
 
-1. ¿Cuál es la versión del genoma de referencia de _D. melanogaster_ que vamos a utilizar?
+1. ¿Cuál es la versión del genoma de referencia de _D. melanogaster_ que vamos a utilizar? ¿Cuándo fue actualizada por última vez?
+
+!!! tip "Pista"
+    La versión del genoma de referencia se indica en el nombre del archivo .fasta que está en la carpeta. Para ver todas las versiones disponibles, hagan click [acá](https://flybase.org/genomes/).
 
 2. ¿Qué diferencias hay entre los distintos archivos .fasta? ¿Cuál vamos a utilizar en el TP y por qué?
 
-3. ¿Qué información contiene el archivo .gff3? ¿Para qué lo vamos a utilizar en el TP? ¿Cuántos tipos de .gff3 hay disponibles para esta versión? 
+3. ¿Qué información contiene el archivo .gff? ¿Para qué lo vamos a utilizar en el TP? ¿Cuántos tipos de .gff hay disponibles para esta versión?
+
+!!! note "Info extra"  
+    Tienen dos archivos, uno llamado all-no-analysis (descargado de FlyBase) y y otro dmel_5.57 (procesado). Para saber cual es la diferencia entre ambos, prueben inspeccionando el inicio y el final de cada archivo con los siguientes comandos:
+
+    ```bash
+    # Recuerden estar en la carpeta donde están los archivos .gff3
+
+    head -n 5 dmel-all-no-analysis-r5.57.gff
+    head -n 5 dmel_5.57.gff
+
+    tail -n 5 dmel-all-no-analysis-r5.57.gff
+    tail -n 5 dmel_5.57.gff
+    ```
+
 
 ### Ejercicio 2: Inspección de archivos FASTQ
+
+En la carpeta **Materiales** van a encontrar dos archivos FASTQ que comienzan con _subset_ y terminan con _.fastq_. Estos archivos contienen una selección de las lecturas de secuenciación que vamos a analizar. Si quisieran obtener las lecturas completas, pueden descargarlas desde el [SRA](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR33554827&display=download). 
+
+1. ¿Qué significan los sufijos _1_ y _2_ de los archivos .fastq?
+   
+2. ¿Cuántas líneas tiene cada lectura en un archivo FASTQ? ¿Y cuántas lecturas hay en cada archivo?
+  ```bash
+    # Recuerden estar en la carpeta donde están los archivos .fastq
+
+    # El * representa comodín, en este caso es cualquier nombre que termine en 1.fastq
+
+    head *1.fastq
+
+    wc -l *1.fastq
+  ```
+![Image](imagenes/fastq_file.png){ width="600", align=center }
+
+1. Comparen las primeras dos lecturas de ambos archivos. ¿Qué diferencias y similitudes encuentran?
 
 ## Métricas de calidad
 
@@ -79,6 +116,8 @@ La calidad de las lecturas de secuenciación es un aspecto crucial en los análi
 **MENCIONAR MULTIQC**
 
 ### Ejercicio 3: Control de calidad de las lecturas
+
+
 
 **CODIGO PARA QUE CORRAN MULTIQC**
 
