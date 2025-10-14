@@ -11,7 +11,7 @@ Lidera el grupo de  Biología Molecular de Protozoarios en el IIBio. Su grupo de
 * Dr. Alfonso Soler Bistué: Licenciado en Biología y Doctor (UBA). 
 Lidera el grupo de Genómica Experimental Bacteriana (GEB) en el IIBio. Su grupo estudia cómo el orden de los genes en el cromosoma bacteriano influye en el crecimiento, la fisiología celular, la aptitud evolutiva y, en algunos casos, la capacidad de infectividad o patogenicidad. 
 
-* Dra. Virginia Balouz: Lienciada en Biotecnología y Doctora (UNSAM). **PONER UNA DESCRIPCIÓN**
+* Dra. Virginia Balouz: Lienciada en Biotecnología y Doctora (UNSAM). 
 
 * Dr. Fernán Aguero: Licenciado en Biología y Doctor (UBA). 
 Lidera el grupo de Genómica y Bioinformática en el IIBio. Trabaja en proyectos a gran escala enfocados en la identificación y validación de blancos para el desarrollo de drogas contra tripanosomátidos y la identificación de marcadores serológicos para diagnóstico de la Enfermedad de Chagas. 
