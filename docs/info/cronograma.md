@@ -1,7 +1,4 @@
 ---
-hide: 
-  - navigation
-  - toc
 tags:
   - cronograma
   - fechas
@@ -21,5 +18,5 @@ Este cronograma puede estar sujeto a modificaciones.
 | Martes, 25 Nov 2025                | 9:00 hs                           | :material-google-classroom: Presencial | Teórica 3: Transcriptómica                           | P. Smircich / N. De Rego            |
 | Miércoles, 26 Nov 2025             | 9:00 hs                           | :material-google-classroom: Presencial | TP 03: Transcriptómica                        | A. A. Cepeda Dean                   |
 | Jueves, 27 Nov 2025                | 9:00 hs                           | :material-google-classroom: Presencial | Teórica 4: Clase Integradora                         | L. Kamenetzky / L. Berná            |
-| Viernes, 28 Nov 2025               | 9:00 hs                           | :material-google-classroom: Presencial | TP 04: Integrador                             | A. Baricalla                        |
+| Viernes, 28 Nov 2025               | 9:00 hs                           | :material-google-classroom: Presencial | TP 04: Trabajo Integrador                             | A. Baricalla                        |
 | Lunes, 1 Dic 2025                  | 9:00 hs                           | :material-google-classroom: Presencial | Evaluación                                | 
